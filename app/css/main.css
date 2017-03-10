@@ -1,0 +1,16 @@
+body {
+  border: red 1px solid;
+  content: "";
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid red;
+  margin-bottom: -2px;
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  color: red;
+  font-weight: 200;
+  line-height: 10px; }
