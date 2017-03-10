@@ -1,16 +1,70 @@
-body {
-  border: red 1px solid;
-  content: "";
-  display: block;
-  position: absolute;
-  width: 0;
-  height: 0;
-  border-left: 6px solid transparent;
-  border-right: 6px solid transparent;
-  border-bottom: 6px solid red;
-  margin-bottom: -2px;
-  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-  font-size: 30px;
-  color: red;
-  font-weight: 200;
-  line-height: 10px; }
+* {
+  margin: 0;
+  padding: 0; }
+
+.slider {
+  background: #8d5c5c;
+  height: 100vh; }
+
+.slide {
+  position: relative;
+  height: 100vh; }
+  .slide-txt {
+    color: #fff;
+    font: 60px/80px RalewayBold ,sans-serif;
+    display: inline-block;
+    position: absolute;
+    bottom: 10%; }
+    .slide-txt_left {
+      text-align: left;
+      left: 5%; }
+    .slide-txt_right {
+      text-align: right;
+      right: 5%; }
+  .slide-nav {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    text-align: center;
+    color: #fff;
+    font: 20px/40px RalewayBold ,sans-serif;
+    text-transform: uppercase; }
+    .slide-nav_arrow {
+      text-decoration: none;
+      color: #fff;
+      font-size: 30px;
+      font-weight: 900; }
+  .slide_title {
+    text-align: center;
+    margin: auto;
+    color: #fff;
+    font: 70px/80px RalewayBold ,sans-serif;
+    font-weight: 900;
+    text-transform: uppercase; }
+  .slide-circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    border: 5px solid #fff;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+    .slide-circle_wrap {
+      height: 500px;
+      width: 500px;
+      border-color: rgba(255, 255, 255, 0.5); }
+    .slide-circle_inner {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      height: 85%;
+      width: 85%;
+      position: relative; }

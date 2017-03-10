@@ -1,0 +1,62 @@
+.slider
+   background: #8d5c5c
+   height: 100vh
+.slide
+   position: relative
+   height: 100vh
+   //background: yellow
+   &-txt
+      color: #fff
+      font: 60px/80px RalewayBold ,sans-serif
+      display: inline-block
+      position: absolute
+      bottom: 10%
+      &_left
+         text-align: left
+         left: 5%
+      &_right
+         text-align: right
+         right: 5%
+      
+   
+   &-nav
+      position: absolute
+      bottom: 10px
+      left: 50%
+      transform: translateX(-50%)
+      text-align: center
+      color: #fff
+      font: 20px/40px RalewayBold ,sans-serif
+      text-transform: uppercase
+      &_arrow
+         text-decoration: none
+         color: #fff
+         font-size: 30px
+         font-weight: 900
+   &_title
+      text-align: center
+      margin: auto
+      color: #fff
+      font: 70px/80px RalewayBold ,sans-serif
+      font-weight: 900
+      text-transform: uppercase
+     
+   &-circle
+      position: absolute
+      top: 50%
+      left: 50%
+      border-radius: 50%
+      transform: translate(-50%,-50%)
+      border: 5px solid #fff
+      box-sizing: border-box
+      &_wrap
+         height: 500px
+         width: 500px
+         border-color: rgba(255,255,255,0.5)
+      &_inner
+         display: flex
+         //background: red
+         height: 85%
+         width: 85%
+         position: relative
+         
